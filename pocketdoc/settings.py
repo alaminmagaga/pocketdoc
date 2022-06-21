@@ -1,7 +1,7 @@
 
 from pathlib import Path
 import os
-import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -87,9 +87,7 @@ DATABASES = {
     }
 }
 
-db_from_env = dj_database_url.config()
-DATABASES['default'].update(db_from_env)
-DATABASES['default']['CONN_MAX_AGE'] = 500
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
