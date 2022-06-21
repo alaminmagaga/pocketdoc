@@ -23,3 +23,4 @@ whitenoise
 daphne
 channels
 django-redis
+dj-database-url==0.5.0
