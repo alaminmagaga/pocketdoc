@@ -63,7 +63,7 @@ TEMPLATES = [
 ]
 
 #WSGI_APPLICATION = 'pocketdoc.wsgi.application'
-ASGI_APPLICATION = 'pocketdoc.routing.application'
+ASGI_APPLICATION = 'pocketdoc.asgi.application'
 
 
 
